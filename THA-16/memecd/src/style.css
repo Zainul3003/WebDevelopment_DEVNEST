@@ -1,0 +1,56 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body
+{
+  min-width: 100vw;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, rgba(3, 19, 43, 0.884), rgba(180, 199, 218, 0.712));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container
+{
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: bisque;
+    border: 2px solid black;
+    height: 600px;
+    width: 50vw;
+}
+
+.card {
+    background-color: rgb(25,34,100);
+    height: 400px;
+    width: 400px;
+    margin: 20px auto;
+    border-radius: 7px;
+    box-shadow: 5px 5px 8px #8d8d8d, -5px -5px 8px #ffffff;
+  }
+.imagee
+{
+    margin-top: 1px;
+    border-radius: 7px;
+    background-image: url('./meme.png');
+    width: 100%;
+    height: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text
+{ 
+    margin: auto;
+    margin-left: 8px;
+    height: 11vh;
+    border-radius: 7px;
+    background-color: rgb(25,34,100);
+}
